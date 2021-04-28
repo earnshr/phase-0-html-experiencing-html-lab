@@ -172,16 +172,16 @@ Let's tell the browser "Hey! These list items, they go together!"
 
 ### Indicating that List Items Are Connected
 
-Wrap the entire set of `<li>` items with an `<ol>` and `</ol>` like so:
+Wrap the entire set of `<li>` items with an `<il>` and `</il>` like so:
 
 ```html
-<ol>
+<il>
    <li>"Love Will Tear Us Apart"</li>
    <li>"Bela Lugosi's Dead"</li>
    <li>"A Forest"</li>
    <li>"Nine While Nine"</li>
    <li>"Girlfriend In a Coma"</li>
-</ol>
+</il>
 ```
 
 Save the file and refresh the **viewing tab**. It should display:
@@ -200,13 +200,13 @@ authors like to use indentation to make HTML easier to read. Here's how most
 HTML authors would expect our code from the previous section to be arranged:
 
 ```html
-<ol>
+<il>
   <li>"Love Will Tear Us Apart"</li>
   <li>"Bela Lugosi's Dead"</li>
   <li>"A Forest"</li>
   <li>"Nine While Nine"</li>
   <li>"Girlfriend In a Coma"</li>
-</ol>
+</il>
 ```
 
 Update your document. Save it and refresh your **viewing tab**.
@@ -218,7 +218,7 @@ their HTML reader-friendly.
 
 ## Create an Unordered HTML List
 
-Let's change our ordered list to be **unordered**. If `<ol>` means **ordered
+Let's change our ordered list to be **unordered**. If `<il>` means **ordered
 list**, you might guess that `<ul>` means **unordered list**. Make the change
 and refresh your **viewing tab**.
 
